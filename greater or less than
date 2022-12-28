@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    cout<<"enter the number:";
+    cout<<n<<endl;
+    if(n==5){
+        cout<<"equal"<<endl;
+    }
+    if(n>5){
+        cout<<"greater"<<endl;
+    }
+    if(n<5){
+        cout<<"less than"<<endl;
+    }
+    return 0;
